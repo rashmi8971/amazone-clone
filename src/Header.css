@@ -1,0 +1,143 @@
+.header {
+  /* height: 150px; */
+  display: flex;
+  align-items: center;
+  background-color: #2e77ff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+  width: 50%;
+}
+.header__searchInput {
+  background-color: #cbdaee;
+  color: #2e83f3;
+  margin-left: auto;
+  height: 12px;
+  padding: 10px;
+  border: none;
+}
+.header__searchIcon {
+  /* padding: 5px; */
+  height: 22px !important;
+  background-color: #2e83f3;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__optionLine1 {
+  font-size: 10px;
+}
+.header__optionLine2 {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.but {
+  background-color: #2e77ff;
+  border: none;
+}
+
+.amaz {
+  /* display: flex;
+    font-size: x-large;
+    color:white;
+    justify-content: space-evenly;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    font-weight: 1000;
+    margin-left: 50%; */
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    /* margin-left: auto; */
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .header__search {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .header__searchInput {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .header__searchIcon {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .header__nav {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .header__optionLine1 {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .header__optionLine2 {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .header__option {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .header_optionBasket {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .header__basketCount {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .amaz {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
